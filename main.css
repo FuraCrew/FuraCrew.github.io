@@ -1,0 +1,153 @@
+body{
+	background-color:;
+	margin: 0px;
+}
+
+#head{
+	width: 100%;
+	height: 70px;
+	background-color: white;
+	position: relative;
+
+}
+
+.logo{
+	font-size: 48px;
+	position: absolute;
+	left: 150px;
+}
+
+.number{
+	font-size: 25px;
+	position: absolute;
+	right: 150px;
+	top: 15px;
+}
+
+#head-two{
+	width: 100%;
+	min-width:200px;
+
+	height: 600px;
+	background-color: black;
+	 background-repeat: no-repeat;
+	background-image: url(back.jpg);
+	background-size: cover;
+	text-align: center;
+
+	position: relative;
+
+}
+
+#HeadTwo-button{
+	width: 100%;
+	min-width:100px;
+
+	height:;
+	background-color:;
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	position: relative;
+	top: 0.5em;
+}
+
+.Heading{
+	width: 100%;
+	min-width: 300px;
+	font-size: 25px;
+	text-align: center;
+	color: white;
+}
+
+.ButtTwo{
+  margin: 40px;
+
+}
+.ButtTwo:hover{
+	color:red;
+	transition: 0.4s;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+/* Проблемная часть адаптивности */
+
+
+.headingHead {
+	font-size: 2em;
+	color:white;
+	margin-top:4em;
+	}
+
+.headingHeadTWO{
+position: absolute:;
+font-size: 1.5em;
+	margin-top:0em;
+}
+
+
+/* ----------- */
+#HeadText {
+	position:absolute;
+	top:200px;
+	left:300px;
+}	
+
+.butt-Tree{
+	
+
+
+}
+button{
+	background-color: red;
+	color:white;
+	width:150px;
+	height:40px;
+	text-align: center;
+	border: 1px red solid;
+	font-size: 15px;
+}
+
+#GridLayout {
+
+display:grid;
+
+width:80%;
+min-width:300px;
+
+
+margin-left:8.5em;
+margin-top:1em;
+
+
+color:;
+
+
+grid-template-columns: 1fr 1fr;
+
+grid-column-gap: 1.2em;
+grid-row-gap: 0.5em;
+
+
+}
+
+
+.bodyDivText {
+	font-size: 14px;
+	margin:1em;
+}
+
+footer {
+	width: 80%;
+	min-width:300px;
+	height: 20px;
+
+margin-left:8.5em;
+margin-top:1em;
+
+	background-color:black;
+}
